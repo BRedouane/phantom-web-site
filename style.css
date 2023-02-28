@@ -126,6 +126,7 @@ nav a:hover {
   position: relative;
   height: 700px;
   display: flex;
+  justify-content: left;
   align-items: center;
   background-color: black;
 }
@@ -138,6 +139,13 @@ nav a:hover {
 .hero2-content p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
+}
+
+.image{
+  position: absolute;
+  right: 16px;
+  width: 650px;
+  height: auto;
 }
 
 footer {
