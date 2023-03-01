@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rayon.css">
     <title>PHANTOM</title>
 </head>
 <body>
@@ -28,14 +29,20 @@
         <div class="hero-content">
             <h1 class="gold">Phantom</h1>
             <p class="gold">Discover the latest trends and find the perfect items for you.</p>
-            <p class="gold2" >________________________________________________________________________________</p>
         </div>
-    </section>
+    </section><br>
+    <p>.</p>
     
-    
-
+  
+        <canvas id="canvas"></canvas>
+    <div class="container">    
+    <label id="ray-count" for="ray-input" class="gold" style="font-size: large;">rayon: 50</label>
+    <input type="range" id="ray-input" min="0" max="100" />
+    </div>
     <section class="hero2">
         <div class="hero2-content">
+        <h1 id="title" style="opacity: 0;"></h1>
+       
             <h2 class="gold">parfum homme</h2>
             <p style="color: grey;">Discover the latest trends and find the perfect items for you.</p>
             <p style="color: grey;"> the latest trends for you.</p>
@@ -53,6 +60,8 @@
         <img src="logo.png" alt="" class="image">
         
     </section>
+
+    
 
 
     <!-- <footer>
@@ -78,4 +87,5 @@
     </footer>-->
 
 </body>
+<script src="rayon.js"></script>
 </html>

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color:  #0b1826;
+  background-color:  #000000;
   color: #FFD700;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -52,11 +52,12 @@ nav a:hover {
 
 .search-form {
   display: flex;
-  margin-right: 2rem;
+  margin-right: 6%;
+  position:relative;
 }
 
 .search-form input[type="text"] {
-  width: 100%;
+  width: 300px;
   padding: 0.5rem;
   border: none;
   border-radius: 0.25rem;
@@ -79,7 +80,6 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
 }
 
 .hero-content {
@@ -127,8 +127,9 @@ nav a:hover {
   height: 700px;
   display: flex;
   justify-content: left;
+  padding-top: 10px;
   align-items: center;
-  background-color: black;
+ 
 }
 
 .hero2-content h2 {
@@ -204,10 +205,7 @@ footer {
   color: #3b5998;
 }
 
-.fab.fa-twitter:hover
-{
-  
-}
+
 
 .gold{
   font-family: 'Times New Roman',serif;
@@ -226,25 +224,4 @@ footer {
  );
   color:transparent;
   -webkit-background-clip:text;
-
-
-}
-.gold2{
-  font-family: 'Times New Roman',serif;
- 
-  font-size: 150px;
-  font-weight: bold;
-  background-image: linear-gradient(
- to right,
- #e9c08b 0,
-        #cb9b51 22%, 
- #f6e27a 45%,
- #f6f2c0 50%,
- #f6e27a 55%,
- #cb9b51 78%,
- #e9c08b 100%
- );
-  color:transparent;
-  -webkit-background-clip:text;
-
 }
