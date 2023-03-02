@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="/css/rayon.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/header-index.css">
+    <link rel="stylesheet" href="./css/animation.css" />
     <title>PHANTOM</title>
 </head>
 <body>    
     <div>
         <header>
-            <div class="logo">logo</div>
+            <div class="logo">phantom</div>
                 <ul>
                   <li><a href="#">home</a></li>
                   <li><a href="#">about</a></li>
@@ -26,7 +27,12 @@
         </header>
         <main>   
             <input type="range" id="ray-input" min="0" max="100" />
-            <section class="section-vide"><h1 class="gold">PHANTOM</h1></section>
+            <section class="section-vide">
+                <h1 class="gold"><span>PHANTOM</span>
+                <input type="range" id="ray-input" min="0" max="100" />
+                
+                </h1>
+            </section>
 
         
 
@@ -45,13 +51,27 @@
                     <p style="color: grey;" data-reveal="left">pour une duration allant jusqu'a 3 jour </p>
                 </div>
                 <div class="image.wrapper">
-                    <img src="logo.png" alt="" class="image" data-reveal="right">
+                    <img src="/images/image-test.png" alt="" class="image" data-reveal="right">
                 </div>
             </section>
         </main>
+        <div class="intro">
+            <div class="intro-text">
+              <h1 class="hide">
+                <span class="text" >PHANTOM</span>
+              </h1>
+             
+            </div>
+          </div>
+          <div class="slider"></div>
     </div>
 </body>
 <script src="/javascript/javs.js" ></script>
 <script src="/javascript/header-index.js" ></script>
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./javascript/animation.js"></script>
     
 </html>

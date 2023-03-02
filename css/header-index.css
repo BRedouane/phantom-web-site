@@ -7,7 +7,7 @@
 }
 body{
   min-height:200vh;
-   background-color:  #07011b;
+   background-color:  #000000;
 }
 
 /* Normal Header */
@@ -21,7 +21,7 @@ header{
   justify-content:space-between;
   align-items:center;
   padding:20px 80px;
-  color:#fff;
+  color:#ffffff;
   z-index:1000;
   transition:all .6s ease-in-out;
 }
@@ -29,6 +29,7 @@ header .logo{
   font-size:2rem;
   font-weight:700;
   text-transform:uppercase;
+
 }
 
 header ul{
@@ -71,15 +72,24 @@ header.sticky{
   position:sticky;
   top:0;
   padding:5px 120px;
-  color:#000;
-  background-image: url(/hero_section.png);
+  color: #FFFFFF;
+  background-image: linear-gradient(
+    to right,
+    #e9c08b63 0,
+     #cb9a5133 22%, 
+    #f6e17a34 45%,
+    #f6f2c033 50%,
+    #f6e17a38 55%,
+    #cb9a5131 78%,
+    #e9c08b2f 100%
+    );
 }
 
 header.sticky ul li a{
   background-image: linear-gradient(
  to right,
  #e9c08b 0,
-        #cb9b51 22%, 
+  #cb9b51 22%, 
  #f6e27a 45%,
  #f6f2c0 50%,
  #f6e27a 55%,
