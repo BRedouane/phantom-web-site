@@ -1,0 +1,47 @@
+
+  .menu-item{
+    list-style:none;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  
+  .menu-link{
+    text-align: left;
+    text-decoration: none;
+    display: block;
+    background-image: linear-gradient(
+ to right,
+ #e9c08b 0,
+  #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #e9c08b 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+    padding: 1em 1em;
+    
+  }
+
+
+
+ 
+  .submenu{
+    display: block;
+    transform-origin: top;
+    transform: scale(1,0);
+    position: absolute;
+    top: 100%;
+    width: 100px;
+    transition: transform .4s;
+  }
+  .menu-item:hover > .submenu{
+  /*   display: block; */
+    transform: scale(1,1);
+    
+  }
+  
+  

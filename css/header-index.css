@@ -59,7 +59,17 @@ header .icon{
 header .icon .line{
   width:30px;
   height:3px;
-  background-color:#fff;
+  background-image: linear-gradient(
+    to right,
+    #e9c08b 0,
+    #cb9b51 22%, 
+   #f6e27a 45%,
+   #f6f2c0 50%,
+   #f6e27a 55%,
+   #cb9b51 78%,
+   #e9c08b 100%
+    );
+
 }
 header .icon .line:not(:first-child)
 {
@@ -72,7 +82,6 @@ header.sticky{
   position:sticky;
   top:0;
   padding:5px 120px;
-  color: #FFFFFF;
   background-image: linear-gradient(
     to right,
     #e9c08b63 0,
@@ -101,7 +110,9 @@ header.sticky ul li a{
 }
 
 
-
+header.sticky .icon .line{
+  background-color:#000;
+}
 /* Banner Section */
 
 

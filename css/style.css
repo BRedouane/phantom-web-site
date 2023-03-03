@@ -35,6 +35,7 @@ text-align: center;
  );
   color:transparent;
   -webkit-background-clip:text;
+  pointer-events: none;
 }
 
 nav {
@@ -195,6 +196,25 @@ nav a:hover {
   -webkit-background-clip:text;
 }
 
+.gold2{
+  font-family: 'Times New Roman',serif;
+  letter-spacing: 5px;
+  font-weight: bold;
+  pointer-events: none;
+  background-image: linear-gradient(
+ to right,
+ #e9c08b 0,
+        #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #e9c08b 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+  pointer-events: none;
+}
 
 .image{
   position: absolute;
