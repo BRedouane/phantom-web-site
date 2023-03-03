@@ -228,8 +228,9 @@ nav a:hover {
 }
 
 .image{
-  width: 700px;
+  width: 100%;
   height: auto;
+  
 }
 
 [data-reveal="left"]{
