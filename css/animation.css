@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  font-family: "Heebo", sans-serif;
+}
+
+.landing {
+  min-height: 100vh;
+  background-color: black;
+  background-size: cover;
+  padding: 0rem 5rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 10vh;
+}
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+.nav-links li {
+  padding-left: 10rem;
+  font-size: 1.2rem;
+}
+#logo {
+  font-family: "Lobster", cursive;
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+
+.intro {
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider {
+  background-image: linear-gradient(
+ to right,
+ #725d42 0,
+ #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #756248 100%
+ );
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+}
+
+.intro-text {
+  color: #ffffff;
+  background-image: linear-gradient(
+ to right,
+ #e9c08b 0,
+  #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #e9c08b 100%
+ );
+ font-family: 'Times New Roman',serif;
+ letter-spacing: 5px;
+ font-weight: bold;
+  font-size: 3rem;
+  -webkit-background-clip:text;
+
+  
+}
+
+.hide {
+  overflow: hidden;
+ 
+}
+
+.hide span {
+  transform: translateY(100%);
+  display: inline-block;
+ 
+}
+
+.gold{
+  font-family: 'Times New Roman',serif;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background-image: linear-gradient(
+ to right,
+ #e9c08b 0,
+        #cb9b51 22%, 
+ #f6e27a 45%,
+ #f6f2c0 50%,
+ #f6e27a 55%,
+ #cb9b51 78%,
+ #e9c08b 100%
+ );
+  color:transparent;
+  -webkit-background-clip:text;
+}
